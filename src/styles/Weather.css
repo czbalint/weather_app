@@ -1,0 +1,79 @@
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.backBtn {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    color: #3893b1;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.backBtn:hover {
+    background-color: #194e74;
+    border-radius: 50px;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #267dbd;
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+.city {
+    font-size: xx-large;
+    color: #93b7cc;
+    margin-bottom: 1.5em;
+}
+
+.weather_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather_info > i {
+    color: #3893b1;
+    font-size: 6em;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: larger;
+    color: #93b7cc;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2em;
+    color: #317d98;
+}
+
+.details > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.w-icon {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #013876;
+} 
+
+.details span{
+    margin-bottom: 15px;
+    font-size: xx-large;
+}
+
+

@@ -1,0 +1,34 @@
+.backBtn {
+    position: fixed;
+    top: 1em;
+    left: 1em;
+    color: #3893b1;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.backBtn:hover {
+    background-color: #194e74;
+    border-radius: 50px;
+}
+
+.saveBtn {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    padding: 20px;
+    font-size: x-large;
+    background-color: transparent;
+    border: 0;
+    color: #3893b1;
+    cursor: pointer;
+    border-radius: 15px;
+    letter-spacing: 5px;
+    transition: 0.3s;
+}
+
+.saveBtn:hover {
+    background-color: #194e74;
+    letter-spacing: 7px;
+}
+

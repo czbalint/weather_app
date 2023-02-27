@@ -1,0 +1,59 @@
+.container {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    height: 40vh;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-m {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+    height: 40vh;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #267dbd;
+    color: #93b7cc;
+    font-size: xx-large;
+}
+
+.icon {
+    position: absolute;
+    top: 5px;
+    left: 92%;
+    color: #93b7cc;
+}
+
+li.autoField {
+    display: flex;
+    justify-content: left;
+    color: #267dbd;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    transition: 0.3s;
+}
+
+li.autoField:hover {
+    background-color: #194e74;
+    width: 100%;
+    padding: 3px;
+    border-radius: 5px;
+    cursor:pointer;
+    letter-spacing: 1.5px;
+}
+
+.hightlightSub{
+    color: #93b7cc;
+    background-color: transparent;
+  
+}
